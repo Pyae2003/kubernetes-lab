@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment and sensitive variables
+.env
+.env.local
+.env.*.local
+
+# Git version control
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Documentation and local testing artifacts
+README.md
+docs/
+tests/
+*.log
+coverage/
+
+# OS metadata
+.DS_Store
+Thumbs.db
